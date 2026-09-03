@@ -455,8 +455,8 @@
   .shelf {
     position: absolute;
   
-    left: 8%;
-    top: 19%;
+    left: 6%;
+    top: 29%;
   
     width: 120px;
     height: 75px;
@@ -518,7 +518,7 @@
   .bed {
     position: absolute;
   
-    left: 8%;
+    left: 5%;
     bottom: 10%;
   
     width: 230px;
@@ -1334,3 +1334,146 @@
     margin:
       0 8px;
   }
+ /* =========================
+   MOBILE PORTRAIT
+   ========================= */
+
+@media (max-width: 600px) and (orientation: portrait) {
+
+  .room {
+    left: 2%;
+    right: 2%;
+    top: 20%;
+    bottom: auto;
+    height: 55vh;
+  }
+
+  /* 窓 */
+  .porthole {
+    width: 110px;
+    height: 110px;
+    left: 50%;
+    top: 8%;
+  }
+
+  /* ランプ */
+  .wall-lamp {
+    right: 7%;
+    top: 12%;
+    transform: scale(0.8);
+    transform-origin: top right;
+  }
+
+  /* 棚・ベッドは縦画面では非表示 */
+  .shelf,
+  .bed {
+    display: none;
+  }
+
+  /* 机 */
+  .desk {
+    width: 170px;
+    height: 125px;
+    left: 50%;
+    bottom: 18%;
+  }
+
+  /* 椅子 */
+  .chair {
+    left: 50%;
+    bottom: 7%;
+  }
+
+  /* 人 */
+  .person {
+    left: 50%;
+    bottom: 7%;
+  }
+
+  /* 植物 */
+  .plant {
+    right: 3%;
+    bottom: 15%;
+    transform: scale(0.75);
+    transform-origin: bottom center;
+    z-index: 9;
+  }
+}
+
+
+/* =========================
+   MOBILE LANDSCAPE
+   ========================= */
+
+@media (max-width: 900px) and (max-height: 600px) and (orientation: landscape) {
+
+  .room {
+    left: 3%;
+    right: 3%;
+    top: 18%;
+    bottom: 8%;
+  }
+
+  /* ベッド */
+  .bed {
+    display: block;
+    left: 3%;
+    bottom: 8%;
+    width: 190px;
+    height: 90px;
+  }
+
+  /* 棚 */
+  .shelf {
+    display: block;
+    left: 4%;
+    top: 5%;
+    transform: scale(0.75);
+    transform-origin: left top;
+  }
+
+  /* 窓 */
+  .porthole {
+    width: 105px;
+    height: 105px;
+    left: 50%;
+    top: 5%;
+  }
+
+  /* ランプ */
+  .wall-lamp {
+    right: 8%;
+    top: 10%;
+    transform: scale(0.8);
+    transform-origin: top right;
+  }
+
+  /* 机 */
+  .desk {
+    width: 170px;
+    height: 120px;
+    left: 72%;
+    bottom: 8%;
+  }
+
+  /* 椅子 */
+  .chair {
+    left: 72%;
+    bottom: 2%;
+  }
+
+  /* 人 */
+  .person {
+    left: 72%;
+    bottom: 2%;
+  }
+
+  /* 植物 */
+  .plant {
+    right: 4%;
+    bottom: 10%;
+    transform: scale(0.65);
+    transform-origin: bottom center;
+    z-index: 9;
+  }
+}
