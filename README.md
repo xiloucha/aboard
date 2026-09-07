@@ -1,59 +1,66 @@
-# Aboard
+# ABOARD
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.1.6.
+A tiny room on a ship.
 
-## Development server
+There is a bed.
+A desk.
+A chair.
+A small plant.
+A window looking out at the sea.
 
-To start a local development server, run:
+Someone is here.
 
-```bash
-ng serve
-```
+Sometimes they drink tea.
+Sometimes they read a book.
+Sometimes they look out the window.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+And sometimes,
+they simply do nothing.
 
-## Code scaffolding
+The room gently sways with the ship.
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Time passes.
+Morning becomes evening.
+Evening becomes night.
 
-```bash
-ng generate component component-name
-```
+Nothing important happens.
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+You don't have to do anything here.
 
-```bash
-ng generate --help
-```
+Just stay for a while.
 
-## Building
+---
 
-To build the project run:
+# ABOARD
 
-```bash
-ng build
-```
+船の中にある、小さな部屋。
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+ベッドがある。
+机がある。
+椅子がある。
+小さな植物がある。
+海を眺める窓がある。
 
-## Running unit tests
+そこには、誰かがいる。
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+ときどき、お茶を飲む。
+ときどき、本を読む。
+ときどき、窓の外を眺める。
 
-```bash
-ng test
-```
+そして、ときどき、
+何もしない。
 
-## Running end-to-end tests
+船はゆっくり揺れている。
 
-For end-to-end (e2e) testing, run:
+時間が過ぎていく。
+朝になり、
+夕方になり、
+夜になる。
 
-```bash
-ng e2e
-```
+何も大きなことは起こらない。
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+ここでは、
+何かをする必要はありません。
 
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+ただ、少しのあいだ、
+ここにいてください。
